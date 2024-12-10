@@ -1,0 +1,40 @@
+# Dependências do Node.js
+/node_modules
+
+# Logs e arquivos de depuração
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build gerados pelo frontend
+/dist
+/build
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Configurações locais de ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache
+/.cache
+/coverage
+
+# Arquivos gerados pelo sistema operacional
+*.log
+*.pid
+*.seed
+*.gz
+
+# Configurações e relatórios de teste
+/junit.xml
+/test-results/
